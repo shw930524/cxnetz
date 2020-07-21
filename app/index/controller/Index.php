@@ -18,8 +18,29 @@ class Index extends Base
     //首页
     public function index()
     {
-        return "六诺科技.文档地址:http://www.ennn.cn/";
+        return view();
     }
+
+    //it运维
+    public function blogthr()
+    {
+        return view();
+    }
+
+    //软件开发
+    public function blogtwo()
+    {
+        return view();
+    }
+
+    //联系我们
+    public function contact()
+    {
+        return view();
+    }
+
+
+
     //列表页
     public function lists($id)
     {
